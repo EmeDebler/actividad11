@@ -94,5 +94,18 @@
     </li>
   </ul>
 
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+  <script type="text/javascript">
+
+$(".social").on("click","social__element" function(event){
+  event.stopPropagation();  
+   });
+$(".social__link").on("click", function(){
+      alert($("img").attr("alt"));
+    });
+$(".social__btn").on("click", function(){
+  $(".social__btn").toggleClass("social__like--clicked")
+
+  </script>
 </body>
 </html>
